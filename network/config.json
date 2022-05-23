@@ -5,22 +5,22 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "moe"
+    "text": "Moritz Neujeffski"
   },
   "text": {
-    "more": "^^x^^y^^xk",
-    "intro": "v.jknckmx",
-    "title": "jupjup"
+    "more": "...",
+    "intro": "This Network Depiction shows the national, international and intercontinental connections of the Atlas Network. This is a two-mode network meaning that it shows indivisuals (green/pruple) and think tanks (orange). The size of the nodes is determined by the number of connections (degree-centrality).",
+    "title": "The Atlas Network"
   },
   "legend": {
-    "edgeLabel": "membership",
-    "colorLabel": "hello",
-    "nodeLabel": "tt"
+    "edgeLabel": "interlock positions",
+    "colorLabel": "orange \u003d think tank I green \u003d MPS-member I purple \u003d No-MPS-member",
+    "nodeLabel": "Individuals and think tanks"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
-    "hoverBehavior": "default"
+    "groupSelectorAttribute": "mps",
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
