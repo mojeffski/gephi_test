@@ -1,6 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style> 
+/*div {
+  padding: 20px; 
+  width: 500px;
+  padding: 100px; 
+  width: 700px;
+  resize: vertical;
+  overflow: hidden;
+}*/
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+.grid-container {
+  display: grid;
+  width: 80vw;
+  height: 80vh;
+}
+
+.infogram-embed {
+  justify-self: stretch;
+  align-self: stretch;
+}
+
+  </style> 
+
+</head>
+<body>
 <h1>The Atlas Network</h1>
 <p>the chart below depicts the intercontinental interlock relationships between member organisations of the Atlas network. National and international connections are exluded from this graph.</p>
 <p>A connections depict shared memberships of individuals in think tanks. </p>
 <p>Hover over a think tank to see it's connections</p>
-<iframe width="100%" height="1092" frameborder="0"
+  <div class=flex-container>
+    <div class="grid-container">
+  <iframe width="100%" height="1092" frameborder="0"
   src="https://observablehq.com/embed/c6d0578d1896213d?cells=chart"></iframe>
+  </div>
+    </div>
+</body>
+</html>
